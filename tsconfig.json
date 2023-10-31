@@ -13,6 +13,7 @@
       "@content/*": ["./src/content/*"],
       "@styles/*": ["./src/styles/*"],
       "@lib/*": ["./src/lib/*"]
-    }
+    },
+    "jsx": "react"
   }
 }

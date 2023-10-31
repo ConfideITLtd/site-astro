@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Bigspring Light Astro",
-    "base_url": "https://bigspring-light-astro.vercel.app",
+    "title": "Confide IT Ltd",
+    "base_url": "https://confide-it.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "38",
-    "logo_text": "Astroplate"
+    "logo_text": "Confide IT"
   },
 
   "settings": {
@@ -24,15 +24,14 @@
   },
 
   "params": {
-    "contact_form_action": "",
     "tag_manager_id": "",
     "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "copyright": "Designed and Developed By [Confide IT](https://confide-it.com/)"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Confide IT",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro boilerplate"
+    "meta_description": "we build quality web apps, you can confide in us"
   }
 }

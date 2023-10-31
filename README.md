@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3bb90758-4ac5-4f86-a909-85b842a27c5d/deploy-status)](https://app.netlify.com/sites/zippy-stardust-02ddc2/deploys)
+
 <h1 align=center>Bigspring Light Astro</h1>
 <p align=center>Bigspring is a highly customizable Astro theme designed specifically for SaaS & marketing websites.  
 </p>

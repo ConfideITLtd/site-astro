@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix(core): prettify all files">
-      <change beforePath="$PROJECT_DIR$/src/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <workItem from="1698763752747" duration="1234000" />
       <workItem from="1698769113649" duration="389000" />
       <workItem from="1698769591931" duration="1764000" />
-      <workItem from="1698774437664" duration="948000" />
+      <workItem from="1698774437664" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />

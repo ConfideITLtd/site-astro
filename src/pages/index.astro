@@ -125,7 +125,7 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
                 class={`service-content mt-5 md:mt-0 ${!isOdd && "md:order-1"}`}
               >
                 <h2 class="font-bold leading-[40px]">{service?.title}</h2>
-                <p class="mt-4 mb-2">{service?.content}</p>
+                <p class="mb-2 mt-4">{service?.content}</p>
                 {service?.button?.enable && (
                   <a
                     href={service?.button.link}

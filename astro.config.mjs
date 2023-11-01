@@ -1,4 +1,3 @@
-import image from "@astrojs/image";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
@@ -11,7 +10,7 @@ import config from "./src/config/config.json";
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
+  site: config.site.base_url ? config.site.base_url : "https://confide-it.com",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   integrations: [
@@ -21,9 +20,6 @@ export default defineConfig({
       config: {
         applyBaseStyles: false,
       },
-    }),
-    image({
-      serviceEntryPoint: "@astrojs/image/sharp",
     }),
     AutoImport({
       imports: [

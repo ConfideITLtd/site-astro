@@ -5,7 +5,7 @@ info:
   title: Why you should contact us!
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
   contacts:
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "phone: [07540309500](tel:07540309500)"
+    - "Mail: [itconfide@gmail.com](mailto:itconfide@gmail.com)"
+    - "Address: 41 Walmington Fold, London, England, N12 7LD, United Kingdom"
 ---

@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="feat(pwa): added pwa support">
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-128x128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils/manifest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils/manifest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pwa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pwa.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,31 +32,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "20.8.0",
-    "javascript.nodejs.core.library.typings.version": "20.8.0",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/paddybasi/IdeaProjects/confide-site-astro/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "wsl://Ubuntu@/home/paddybasi/.nvm/versions/node/v20.8.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu\\home\\paddybasi\\IdeaProjects\\confide-site-astro\\node_modules\\prettier",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.8.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.8.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/paddybasi/IdeaProjects/confide-site-astro/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/paddybasi/.nvm/versions/node/v20.8.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu\\home\\paddybasi\\IdeaProjects\\confide-site-astro\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\public" />
@@ -101,7 +80,8 @@
       <workItem from="1698774437664" duration="10962000" />
       <workItem from="1698877119396" duration="30620000" />
       <workItem from="1699430608742" duration="4682000" />
-      <workItem from="1699729378639" duration="13086000" />
+      <workItem from="1699729378639" duration="14266000" />
+      <workItem from="1699996260574" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />

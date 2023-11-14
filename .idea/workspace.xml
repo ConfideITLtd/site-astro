@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="feat(pwa): added pwa support">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.astro" afterDir="false" />
-    </list>
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix(contact): added contact form security" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +78,7 @@
       <workItem from="1698877119396" duration="30620000" />
       <workItem from="1699430608742" duration="4682000" />
       <workItem from="1699729378639" duration="14266000" />
-      <workItem from="1699996260574" duration="779000" />
+      <workItem from="1699996260574" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />
@@ -137,7 +134,8 @@
     <MESSAGE value="fix(core): updated to astro v3 and added page transitions" />
     <MESSAGE value="chore(core): updated contact info" />
     <MESSAGE value="feat(pwa): added pwa support" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(pwa): added pwa support" />
+    <MESSAGE value="fix(contact): added contact form security" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(contact): added contact form security" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

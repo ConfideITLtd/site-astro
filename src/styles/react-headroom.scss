@@ -1,5 +1,5 @@
 .headroom {
-  @apply z-50 transition-all top-0 left-0 right-0 md:bg-opacity-100 bg-white sticky;
+  @apply z-50 transition-all top-0 left-0 right-0 md:bg-opacity-100 bg-white fixed;
 
   &.headroom--unfixed {
     @apply md:bg-opacity-0;
@@ -10,11 +10,11 @@
   }
 
   &.headroom--unpinned {
-    @apply fixed -translate-y-full md:drop-shadow-2xl md:translate-y-0;
+    @apply -translate-y-full md:drop-shadow-2xl md:translate-y-0;
   }
 
   &.headroom--pinned {
-    @apply translate-y-0 fixed;
+    @apply translate-y-0;
   }
 
 }

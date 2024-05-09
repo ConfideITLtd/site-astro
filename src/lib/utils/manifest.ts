@@ -1,4 +1,4 @@
-import type { ManifestOptions } from 'vite-plugin-pwa'
+import type { ManifestOptions } from "vite-plugin-pwa";
 
 /**
  * Defines the configuration for PWA webmanifest.
@@ -15,18 +15,18 @@ export const manifest: Partial<ManifestOptions> = {
     {
       src: "/favicons/favicon-192x192.png",
       sizes: "192x192",
-      type: "image/png"
-    },
-    {
-      src: "/favicons/favicon-512x512.png",
-      sizes: "512x512",
-      type: "image/png"
+      type: "image/png",
     },
     {
       src: "/favicons/favicon-512x512.png",
       sizes: "512x512",
       type: "image/png",
-      purpose: "any maskable"
-    }
-  ]
-}
+    },
+    {
+      src: "/favicons/favicon-512x512.png",
+      sizes: "512x512",
+      type: "image/png",
+      purpose: "any maskable",
+    },
+  ],
+};

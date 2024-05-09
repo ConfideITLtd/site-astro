@@ -2,7 +2,7 @@
 import Logo from "@components/Logo.astro";
 import { nav_button } from "@config/config.json";
 import menu from "@config/menu.json";
-import NavBar from '@components/NavBar';
+import NavBar from "@components/NavBar";
 
 const pathname = new URL(Astro.request.url).pathname;
 
@@ -24,23 +24,23 @@ const { main }: { main: NavigationLink[] } = menu;
 <NavBar client:only="react" color="#29C0C9">
   <Logo slot="logo" />
 
-
   <ul
-    id="nav-menu" slot="navMenu"
-    class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto md:space-x-3"
+    id="nav-menu"
+    slot="navMenu"
+    class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto md:space-x-3 [.open_&]:block"
   >
     {
       main.map((menu) => (
         <>
           {menu.hasChildren ? (
             <li class="nav-item nav-dropdown group relative">
-                <span class="nav-link inline-flex items-center">
-                  {menu.name}
-                  <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                  </svg>
-                </span>
-              <ul class="nav-dropdown-list hidden group-hover:block absolute opacity-0 group-hover:visible group-hover:opacity-100">
+              <span class="nav-link inline-flex items-center">
+                {menu.name}
+                <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </span>
+              <ul class="md:nav-dropdown-list hidden opacity-0 group-hover:visible group-hover:block group-hover:opacity-100 md:absolute">
                 {menu.children?.map((child) => (
                   <li class="nav-dropdown-item">
                     <a
@@ -70,15 +70,14 @@ const { main }: { main: NavigationLink[] } = menu;
         </>
       ))
     }
-
   </ul>
   {
     nav_button.enable && (
-      <div slot="navButton" class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 md:flex md:min-w-[150px] lg:min-w-[200px]">
-        <a
-          class="btn btn-primary z-0 ml-auto py-[14px]"
-          href={nav_button.link}
-        >
+      <div
+        slot="navButton"
+        class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 md:flex md:min-w-[150px] lg:min-w-[200px]"
+      >
+        <a class="btn btn-primary z-0 ml-auto py-[14px]" href={nav_button.link}>
           {nav_button.label}
         </a>
       </div>

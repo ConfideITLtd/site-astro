@@ -1,100 +1,400 @@
 [
   {
     "frontmatter": {
-      "title": "How to make toys from old Olarpaper",
-      "description": "meta description",
+      "title": "What you need to know about Photography",
+      "description": "Heading example Here is example of hedings. You can use this heading by following markdownify rules.",
+      "image": "/images/blog-1.jpg",
       "date": "2022-04-04T05:00:00.000Z",
-      "image": "/images/posts/01.jpg",
-      "categories": ["art"],
-      "authors": ["Mark Dinn"],
-      "tags": ["diy", "toy"],
-      "draft": false
-    },
-    "content": "\n<Button href=\"#\" style=\"outline\">\n  Button\n</Button>\n\n#### Table of contents\n\n## Features & Changes\n\n### Type-safe Frontmatters and Redefined Blog Schema\n\nFrontmatter of AstroPaper 2.0 markdown contents are now type-safe thanks to Astro’s Content Collections. Blog schema is defined inside the `src/content/_schemas.ts` file.\n\n### New Home for Blog contents\n\nAll the blog posts were moved from `src/contents` to `src/content/blog` directory.\n\n### Collapse\n\n<Accordion client:load title=\"Why should you need to do this?\">\n\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n\n</Accordion>\n",
-    "slug": "post-1x"
-  },
-  {
-    "frontmatter": {
-      "title": "Why a balloon is a flexible bag",
-      "description": "meta description",
-      "date": "2022-04-04T05:00:00.000Z",
-      "image": "/images/posts/02.jpg",
-      "categories": ["development"],
-      "authors": ["John Doe"],
-      "tags": ["diy", "toy"],
       "draft": false
     },
     "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
-    "slug": "post-2"
+    "slug": "blog/blog-1"
+  },
+  {
+    "frontmatter": {
+      "title": "How to make toys from old Olarpaper",
+      "description": "Heading example Here is example of hedings. You can use this heading by following markdownify rules.",
+      "image": "/images/blog-2.jpg",
+      "date": "2022-05-04T05:00:00.000Z",
+      "draft": false
+    },
+    "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
+    "slug": "blog/blog-2"
   },
   {
     "frontmatter": {
       "title": "What you need to know about Photography",
-      "description": "meta description",
-      "date": "2022-04-02T06:00:00.000Z",
-      "image": "/images/posts/03.jpg",
-      "categories": ["art"],
-      "authors": ["Mark Dinn"],
-      "tags": ["diy", "toy"],
+      "description": "Heading example Here is example of hedings. You can use this heading by following markdownify rules.",
+      "image": "/images/blog-3.jpg",
+      "date": "2022-06-02T06:00:00.000Z",
       "draft": false
     },
     "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
-    "slug": "post-3"
-  },
-  {
-    "frontmatter": {
-      "title": "Why a balloon is a flexible bag that can be inflated with a gas",
-      "description": "meta description",
-      "image": "/images/posts/04.jpg",
-      "date": "2021-02-02T10:56:47.000Z",
-      "draft": false,
-      "authors": ["Mark Dinn"],
-      "tags": ["Balloon", "Gas"],
-      "categories": ["Accessories"]
-    },
-    "content": "\nA balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous oxide, oxygen, and air. For special tasks, balloons can be filled with smoke, liquid water, granular media, or light sources.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n### Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
-    "slug": "post-4"
-  },
-  {
-    "frontmatter": {
-      "title": "Banana is the best meal packages in the UK spark outrage online",
-      "description": "meta description",
-      "image": "/images/posts/05.jpg",
-      "date": "2021-01-25T10:56:47.000Z",
-      "draft": false,
-      "authors": ["John Doe"],
-      "tags": ["Food", "Gold"],
-      "categories": ["Food"]
-    },
-    "content": "\nA banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called \"plantains\", distinguishing them from dessert bananas.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n### Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
-    "slug": "post-5"
-  },
-  {
-    "frontmatter": {
-      "title": "Become a morning person with the help of this a alarm clock",
-      "description": "meta description",
-      "image": "/images/posts/06.jpg",
-      "date": "2021-02-03T10:56:47.000Z",
-      "draft": false,
-      "authors": ["Mark Dinn"],
-      "tags": ["Alarm", "Clock"],
-      "categories": ["LifeStyle"]
-    },
-    "content": "\nAlmost every day for the past nine or so months has felt like March 13, and that can sometimes make it difficult to want to wake up for the day ahead of you.\n\nTo make a morning person out of you, the wake-up light simulates the sunrise to gradually ease you awake. This allows you to wake up more naturally rather than being jolted awake by the default iPhone alarm sound, which honestly triggers my fight or flight response.\n\n### Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
-    "slug": "post-6"
+    "slug": "blog/blog-3"
   },
   {
     "frontmatter": {
       "title": "How to make toys from old Olarpaper",
-      "description": "meta description",
-      "date": "2022-04-04T05:00:00.000Z",
-      "image": "/images/posts/01.jpg",
-      "categories": ["art"],
-      "authors": ["Mark Dinn"],
-      "tags": ["diy", "toy"],
+      "description": "Heading example Here is example of hedings. You can use this heading by following markdownify rules.",
+      "image": "/images/blog-4.jpg",
+      "date": "2022-07-04T05:00:00.000Z",
       "draft": false
     },
     "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
-    "slug": "post-7"
+    "slug": "blog/blog-4"
+  },
+  {
+    "frontmatter": {
+      "title": "Adversus is a web-based dialer and practical CRM solution",
+      "description": "Heading example Here is example of hedings. You can use this heading by following markdownify rules.",
+      "image": "/images/blog-4.jpg",
+      "date": "2022-08-04T05:00:00.000Z",
+      "draft": false
+    },
+    "content": "\nNemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\n## Creative Design\n\nNam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.\n\n> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!\n",
+    "slug": "blog/blog-5"
+  },
+  {
+    "frontmatter": {
+      "title": "Latest news",
+      "description": "this is meta description"
+    },
+    "content": "",
+    "slug": "blog/index"
+  },
+  {
+    "frontmatter": {
+      "title": "Node 20 LTS",
+      "description": "NodeJS 20 enters Long Term Support (LTS)",
+      "image": "/images/blog-4.jpg",
+      "date": "2023-11-14T18:00:00.000Z",
+      "draft": false,
+      "author": "Pardeep Singh Basi"
+    },
+    "content": "\nNode.js 20 is a major release of the JavaScript runtime environment, with a number of new features and improvements. It is also the first LTS (long-term support) release of Node.js 20, which means it will be supported for at least three years.\n\n## Benefits of using Node.js 20 and it becoming an LTS release\n\n**Benefits of using Node.js 20**\n\n* **Performance improvements:** Node.js 20 includes a number of performance improvements, including faster startup times, reduced memory usage, and improved performance for common tasks such as HTTP requests and database queries.\n* **New features:** Node.js 20 includes a number of new features, such as support for single executable applications (SEAs), native support for TypeScript, and new APIs for working with files and streams.\n* **LTS support:** Node.js 20 is an LTS release, which means it will be supported for at least three years with security patches and bug fixes. This makes it a good choice for production environments where stability is important.\n\n**New features in Node.js 20**\n\n* **Support for single executable applications (SEAs):** Node.js 20 includes an experimental feature that allows you to create a single executable application (SEA) that you can deploy without dependencies. This can be useful for distributing applications to platforms where it is difficult or impossible to install Node.js.\n* **Native support for TypeScript:** Node.js 20 includes native support for TypeScript, which means you can compile TypeScript code directly to JavaScript without needing to install any additional tools. This can make it easier to develop and maintain Node.js applications.\n* **New APIs for working with files and streams:** Node.js 20 includes a number of new APIs for working with files and streams, such as the `fs.promises` API and the `Stream.Readable.from()` and `Stream.Writable.to()` methods. These new APIs can make it easier to write efficient and reliable code for working with files and streams.\n\n**How to use the new features in Node.js 20**\n\nTo use the new features in Node.js 20, you will need to upgrade to Node.js 20. You can do this using the Node.js installer or by using a package manager such as npm or Yarn.\n\nOnce you have upgraded to Node.js 20, you can start using the new features. For example, to create a single executable application (SEA), you can use the `node --experimental-sea-config sea-config.json` command.\n\nTo use the native support for TypeScript, you can simply compile your TypeScript code to JavaScript using the `tsc` command.\n\nTo use the new APIs for working with files and streams, you can simply import the `fs.promises` API or the `Stream.Readable.from()` and `Stream.Writable.to()` methods into your code.\n\n**Conclusion**\n\nNode.js 20 is a major release of the JavaScript runtime environment with a number of new features and improvements. It is also the first LTS release of Node.js 20, which means it will be supported for at least three years.\n\nIf you are developing Node.js applications, I encourage you to upgrade to Node.js 20 to take advantage of the new features and performance improvements.\n",
+    "slug": "blog/node-20-ltsx"
+  },
+  {
+    "frontmatter": {
+      "title": "Contact Us",
+      "draft": false,
+      "info": {
+        "title": "Why you should contact us!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.",
+        "contacts": [
+          "phone: [07540309500](tel:07540309500)",
+          "Mail: [info@confide-it.com](mailto:info@confide-it.com)",
+          "Address: 41 Walmington Fold, London, England, N12 7LD, United Kingdom"
+        ]
+      }
+    },
+    "content": "",
+    "slug": "contact/index"
+  },
+  {
+    "frontmatter": {
+      "title": "Frequently Asked Questions",
+      "draft": false,
+      "faqs": [
+        {
+          "title": "Will updates also be free?",
+          "answer": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "title": "Discounts for students and Non Profit Organizations?",
+          "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://www.example.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "title": "I need something unique, Can you make it?",
+          "answer": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "title": "Is there any documentation and support?",
+          "answer": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "title": "Any refunds?",
+          "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://www.example.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "title": "What is a product key?",
+          "answer": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        }
+      ]
+    },
+    "content": "",
+    "slug": "faq/index"
+  },
+  {
+    "frontmatter": {
+      "banner": {
+        "title": "Let us solve your critical website development challenges",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus",
+        "image": "/images/banner-art.png",
+        "button": { "label": "Contact Us", "link": "/contact", "enable": true }
+      },
+      "feature": {
+        "title": "Something You Need To Know",
+        "features": [
+          {
+            "name": "Clean Code",
+            "icon": "/images/code.svg",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+          },
+          {
+            "name": "Object Oriented",
+            "icon": "/images/oop.svg",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+          },
+          {
+            "name": "24h Service",
+            "icon": "/images/user-clock.svg",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+          },
+          {
+            "name": "Value for Money",
+            "icon": "/images/love.svg",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+          },
+          {
+            "name": "Faster Response",
+            "icon": "/images/speedometer.svg",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+          },
+          {
+            "name": "Cloud Support",
+            "icon": "/images/cloud.svg",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+          }
+        ]
+      },
+      "services": [
+        {
+          "title": "It is the most advanced digital marketing and it company.",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+          "images": [
+            "/images/service-slide-1.png",
+            "/images/service-slide-2.png",
+            "/images/service-slide-3.png"
+          ],
+          "button": {
+            "enable": true,
+            "label": "Check it out",
+            "link": "/contact"
+          }
+        },
+        {
+          "title": "It is a privately owned Information and cyber security company",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+          "images": ["/images/service-slide-1.png"],
+          "button": {
+            "enable": true,
+            "label": "Check it out",
+            "link": "/contact"
+          }
+        },
+        {
+          "title": "It’s a team of experienced and skilled people with distributions",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+          "images": [
+            "/images/service-slide-1.png",
+            "/images/service-slide-2.png",
+            "/images/service-slide-3.png"
+          ],
+          "button": {
+            "enable": true,
+            "label": "Check it out",
+            "link": "/contact"
+          }
+        },
+        {
+          "title": "A company standing different from others",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
+          "images": [
+            "/images/service-slide-1.png",
+            "/images/service-slide-2.png",
+            "/images/service-slide-3.png"
+          ],
+          "button": {
+            "enable": true,
+            "label": "Check it out",
+            "link": "/contact"
+          }
+        }
+      ],
+      "workflow": {
+        "title": "Experience the best workflow with us",
+        "image": "/images/banner.png",
+        "description": ""
+      },
+      "call_to_action": {
+        "title": "Ready to get started?",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.",
+        "image": "/images/cta.png",
+        "button": { "enable": true, "label": "Contact Us", "link": "/contact" }
+      }
+    },
+    "content": "",
+    "slug": "homepage/index"
+  },
+  {
+    "frontmatter": { "title": "Error 404" },
+    "content": "\n## Page Not Found\n",
+    "slug": "pages/404"
+  },
+  {
+    "frontmatter": { "title": "Elements", "draft": false },
+    "content": "import { Image } from 'astro:assets';\nimport desk from '../assets/desk.jpg';\n\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n###### Heading 6\n\n---\n\n### Paragraph\n\nDid you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships.\n\nDid you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships.\n\n---\n\n### Emphasis\n\n1. Did you come here for something in **particular** or just general\n\n2. Did you come here for something in <ins>particular</ins>\n\n3. _Did you come here_\n\n4. Did you come here for **something** in particular\n\n5. Did you come here for something in particular\n\n6. Did you come here for something in particular\n\n7. URLs and URLs in angle brackets will automatically get turned into links. [http://www.example.com](http://www.example.com) or\n\n8. [http://www.example.com](http://www.example.com) and sometimes example.com (but not on Github, for example).\n\n---\n\n### Link\n\n[I'm an inline-style link](https://www.google.com)\n\n[I'm an inline-style link with title](https://www.google.com \"Google's Homepage\")\n\n[I'm a reference-style link][arbitrary case-insensitive reference text]\n\n[I'm a relative reference to a repository file](../blob/master/LICENSE)\n\n[You can use numbers for reference-style link definitions][1]\n\nOr leave it empty and use the [link text itself].\n\nexample.com (but not on Github, for example).\n\nSome text to show that the reference links can follow later.\n\n[arbitrary case-insensitive reference text]: https://www.themefisher.com\n[1]: https://gethugothemes.com\n[link text itself]: https://www.getjekyllthemes.com\n\n---\n\n### Ordered List\n\n1. List item\n2. List item\n3. List item\n4. List item\n5. List item\n\n---\n\n### Unordered List\n\n- List item\n- List item\n- List item\n- List item\n- List item\n\n---\n\n### Code and Syntax Highlighting\n\n#### HTML\n\n```html\n<ul>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"/\">Home</a>\n  </li>\n  <li class=\"nav-item\">\n    <a class=\"nav-link\" href=\"about/\">About</a>\n  </li>\n</ul>\n`}\n```\n\n---\n\n#### CSS\n\n```css\nimg {\n  vertical-align: middle;\n  border: 0;\n  max-width: 100%;\n  height: auto;\n}\n```\n\n---\n\n#### JavaScript\n\n```javascript\nwindow.addEventListener(\"load\", (e) => {\n  document.querySelector(\".preloader\").style.display = \"none\";\n});\n```\n\n---\n\n### Button\n\n<Button href=\"#\" style=\"solid\">\n  Button\n</Button>\n\n---\n\n### Quote\n\n> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.\n\n---\n\n### Table\n\n| #   |    First     |     Last     |       Handle |\n| :-- | :----------: | :----------: | -----------: |\n| 1   | Row:1 Cell:1 | Row:1 Cell:2 | Row:1 Cell:3 |\n| 2   | Row:2 Cell:1 | Row:2 Cell:2 | Row:2 Cell:3 |\n| 3   | Row:3 Cell:1 | Row:3 Cell:2 | Row:3 Cell:3 |\n\n---\n\n### Collapse\n\n<Accordion client:load title=\"Why should you need to do this?\">\n\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n\n</Accordion>\n\n<Accordion client:load title=\"How can I adjust Horizontal centering\">\n\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n\n</Accordion>\n\n<Accordion client:load title=\"Should you use Negative margin?\">\n\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n- This is a thing.\n\n</Accordion>\n\n---\n\n### Image\n<Image src={desk} alt=\"An elegant desk.\"/>\n![image](/images/flower.jpg)\n\n---\n\n### Youtube video\n\n<Youtube client:load id=\"ZEe-IFezQok\" title=\"Play:Youtube\" />\n\n---\n\n### Custom video\n\n<Video\n  width=\"100%\"\n  src=\"https://joy1.videvo.net/videvo_files/video/free/video0467/large_watermarked/_import_61516692993d77.04238324_preview.mp4\"\n/>\n",
+    "slug": "pages/elementsx"
+  },
+  {
+    "frontmatter": {
+      "title": "Privacy",
+      "description": "this is meta description",
+      "draft": false
+    },
+    "content": "\n#### Responsibility of Contributors\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed\n\npretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.\n\n#### Gathering of Personal Information\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed\n\n#### Protection of Personal- Information\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.\n\nMolestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat\n\n#### Privacy Policy Changes\n\n1. Sll the Themefisher items are designed to be with the latest , We check all\n2. comments that threaten or harm the reputation of any person or organization\n3. personal information including, but limited to, email addresses, telephone numbers\n4. Any Update come in The technology Customer will get automatic Notification.\n",
+    "slug": "pages/privacy-policy"
+  },
+  {
+    "frontmatter": { "title": "Thank You!" },
+    "content": "\n## Form submitted\n\nYour form submission has been received, a member of our team will be in touch shortly.\n",
+    "slug": "pages/success"
+  },
+  {
+    "frontmatter": {
+      "title": "Terms and Conditions",
+      "description": "this is meta description",
+      "draft": false
+    },
+    "content": "\n#### Responsibility of Contributors\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed\n\npretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.\n\n#### Gathering of Personal Information\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed\n\n#### Protection of Personal- Information\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.\n\nMolestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat\n\n#### Privacy Policy Changes\n\n1. Sll the Themefisher items are designed to be with the latest , We check all\n2. comments that threaten or harm the reputation of any person or organization\n3. personal information including, but limited to, email addresses, telephone numbers\n4. Any Update come in The technology Customer will get automatic Notification.\n",
+    "slug": "pages/terms-conditions"
+  },
+  {
+    "frontmatter": {
+      "title": "Pricing",
+      "description": "meta description",
+      "draft": false,
+      "plans": [
+        {
+          "title": "Basic Plan",
+          "subtitle": "Best For Small Individuals",
+          "price": 49,
+          "type": "month",
+          "features": [
+            "Express Service",
+            "Customs Clearance",
+            "Time-Critical Services"
+          ],
+          "button": { "label": "Get started for free", "link": "/contact" }
+        },
+        {
+          "title": "Professional Plan",
+          "subtitle": "Best For Professionals",
+          "price": 69,
+          "type": "month",
+          "recommended": true,
+          "features": [
+            "Express Service",
+            "Customs Clearance",
+            "Time-Critical Services",
+            "Cloud Service",
+            "Best Dashboard"
+          ],
+          "button": { "label": "Get started", "link": "/contact" }
+        },
+        {
+          "title": "Business Plan",
+          "subtitle": "Best For Large Individuals",
+          "price": 99,
+          "type": "month",
+          "features": [
+            "Express Service",
+            "Customs Clearance",
+            "Time-Critical Services"
+          ],
+          "button": { "label": "Get started", "link": "/contact" }
+        }
+      ],
+      "call_to_action": {
+        "title": "Need a larger plan?",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.",
+        "image": "/images/cta.png",
+        "button": { "enable": true, "label": "Contact Us", "link": "/contact" }
+      }
+    },
+    "content": "",
+    "slug": "pricing/index"
+  },
+  {
+    "frontmatter": {
+      "title": "Our Team",
+      "description": "Meet our team",
+      "draft": false,
+      "members": [
+        {
+          "name": "Pardeep Singh Basi",
+          "role": "Fullstack Developer",
+          "image": "paddybasi.jpg",
+          "social": {
+            "facebook": "https://facebook.com/paddybasi",
+            "twitter": "https://twitter.com/paddybasi",
+            "linkedIn": "https://www.linkedin.com/in/paddybasi/",
+            "email": "pardeep.basi@confide-it.com"
+          },
+          "description": "A fullstack javascript developer with over 20+ years of experience within the field."
+        },
+        {
+          "name": "Ernest Man",
+          "role": "Fullstack Developer",
+          "image": "team-member-02.webp",
+          "social": {
+            "facebook": "https://facebook.com/paddybasi",
+            "twitter": "https://twitter.com/paddybasi",
+            "linkedIn": "https://linkedIn.com/paddybasi",
+            "email": "pardeep.basi@confide-it.com"
+          },
+          "description": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "name": "Elviani Huseyin",
+          "role": "Fullstack Developer",
+          "image": "team-member-03.webp",
+          "social": {
+            "email": "pardeep.basi@confide-it.com",
+            "facebook": "https://facebook.com/paddybasi",
+            "twitter": "https://twitter.com/paddybasi",
+            "linkedIn": "https://linkedIn.com/paddybasi"
+          },
+          "description": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "name": "Mohammed Lala",
+          "role": "Fullstack Developer",
+          "image": "team-member-04.webp",
+          "social": {
+            "email": "pardeep.basi@confide-it.com",
+            "facebook": "https://facebook.com/paddybasi",
+            "twitter": "https://twitter.com/paddybasi",
+            "linkedIn": "https://linkedIn.com/paddybasi"
+          },
+          "description": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        },
+        {
+          "name": "Ash Henry",
+          "role": "Fullstack Developer",
+          "image": "team-member-05.webp",
+          "social": {
+            "facebook": "https://facebook.com/paddybasi",
+            "twitter": "https://twitter.com/paddybasi",
+            "linkedIn": "https://linkedIn.com/paddybasi",
+            "email": "pardeep.basi@confide-it.com"
+          },
+          "description": "Lorem, [link](https://www.example.com) ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!"
+        }
+      ]
+    },
+    "content": "",
+    "slug": "team/index"
   }
 ]

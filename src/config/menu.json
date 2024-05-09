@@ -5,24 +5,44 @@
       "url": "/"
     },
     {
+      "name": "Company",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "About",
+          "url": "/about"
+        },
+        {
+          "name": "Team",
+          "url": "/team"
+        }
+      ]
+    },
+    {
       "name": "Blog",
       "url": "/blog"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "Pages",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Case Studies",
+          "url": "/case-studies"
+        },
+        {
+          "name": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "name": "Privacy Policy",
+          "url": "/privacy-policy"
+        }
+      ]
     },
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     }
   ],
   "footer": [

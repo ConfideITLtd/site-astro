@@ -5,7 +5,7 @@ const jsonDir = "./public";
 
 // get data from markdown
 const getData = (folder) => {
-  const getPath = fs.readdirSync(path.join(folder));
+  const getPath = fs.readdirSync(path.join(folder), { recursive: true });
   const sanitizeData = getPath.filter((item) => item.includes(".md"));
   const filterData = sanitizeData.filter((item) => item.match(/^(?!_)/));
   const getData = filterData.map((filename) => {
@@ -27,7 +27,7 @@ const getData = (folder) => {
 };
 
 // get post data
-const posts = getData(`src/content/posts`);
+const posts = getData(`src/content`);
 
 try {
   // creare folder if it doesn't exist

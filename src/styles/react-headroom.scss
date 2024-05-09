@@ -1,0 +1,25 @@
+.headroom {
+  @apply fixed left-0 right-0 top-0 z-50 bg-white transition-all md:bg-opacity-100;
+
+  &.headroom--unfixed {
+    @apply md:bg-opacity-0;
+  }
+
+  &.headroom--scrolled.headroom--pinned {
+    @apply drop-shadow-2xl;
+  }
+
+  &.headroom--unpinned {
+    @apply -translate-y-full md:translate-y-0 md:drop-shadow-2xl;
+  }
+
+  &.headroom--pinned {
+    @apply translate-y-0;
+  }
+}
+
+.open {
+  .headroom {
+    @apply fixed translate-y-0 drop-shadow-none #{!important};
+  }
+}

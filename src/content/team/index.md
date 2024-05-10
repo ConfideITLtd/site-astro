@@ -5,7 +5,7 @@ draft: false
 members:
   - name: Pardeep Singh Basi
     role: Fullstack Developer
-    image: paddybasi.jpg
+    image: ./paddybasi.jpg
     social:
       facebook: https://facebook.com/paddybasi
       twitter: https://twitter.com/paddybasi
@@ -15,7 +15,7 @@ members:
 
   - name: Ernest Man
     role: Fullstack Developer
-    image: team-member-02.webp
+    image: ./team-member-02.webp
     social:
       facebook: https://facebook.com/paddybasi
       twitter: https://twitter.com/paddybasi
@@ -25,7 +25,7 @@ members:
 
   - name: Elviani Huseyin
     role: Fullstack Developer
-    image: team-member-03.webp
+    image: ./team-member-03.webp
     social:
       email: pardeep.basi@confide-it.com
       facebook: https://facebook.com/paddybasi
@@ -35,7 +35,7 @@ members:
 
   - name: Mohammed Lala
     role: Fullstack Developer
-    image: team-member-04.webp
+    image: ./team-member-04.webp
     social:
       email: pardeep.basi@confide-it.com
       facebook: https://facebook.com/paddybasi
@@ -45,7 +45,7 @@ members:
 
   - name: Ash Henry
     role: Fullstack Developer
-    image: team-member-05.webp
+    image: ./team-member-05.webp
     social:
       facebook: https://facebook.com/paddybasi
       twitter: https://twitter.com/paddybasi

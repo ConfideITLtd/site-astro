@@ -13,6 +13,9 @@ pnpm-debug.log*
 yarn.lock
 package-lock.json
 
+# IDE settings
+.idea/
+
 
 # environment variables
 .env

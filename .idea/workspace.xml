@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix(contact): styling recaptcha">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/posts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Header.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/jsonGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/jsonGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/navigation.scss" afterDir="false" />
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix(images): optimise images to use astro image service">
+      <change beforePath="$PROJECT_DIR$/src/lib/utils/manifest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils/manifest.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +44,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "updated-nav-and-teams-page",
+    "git-widget-placeholder": "optimised-images-and-favicons",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "22.0.0",
     "javascript.nodejs.core.library.typings.version": "20.12.11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/paddybasi/IdeaProjects/confide-site-astro/src/scripts/jsonGenerator.js",
+    "last_opened_file_path": "/home/paddybasi/IdeaProjects/confide-site-astro/public/favicons",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,11 +67,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/favicons" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/content/homepage" />
+      <recent name="$PROJECT_DIR$/src/content/blog" />
       <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\pages" />
-      <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\pages" />
-      <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/content/team" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/content/homepage" />
       <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\assets" />
     </key>
   </component>
@@ -155,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699997825009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix(images): optimise images to use astro image service">
+      <option name="closed" value="true" />
+      <created>1715375293675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715375293675</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +186,8 @@
     <MESSAGE value="feat(pwa): added pwa support" />
     <MESSAGE value="fix(contact): added contact form security" />
     <MESSAGE value="fix(contact): styling recaptcha" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(contact): styling recaptcha" />
+    <MESSAGE value="fix(images): optimise images to use astro image service" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(images): optimise images to use astro image service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

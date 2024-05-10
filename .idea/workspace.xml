@@ -4,68 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix(navigation): styling issues">
-      <change afterPath="$PROJECT_DIR$/public/favicons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-384x384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner-art.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/banner-art.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/blog-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cta.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/cta.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/flower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/service-slide-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/service-slide-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/service-slide-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/service-slide-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/service-slide-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/service-slide-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/team/paddybasi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/paddybasi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/team/team-member-01.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/team-member-01.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/team/team-member-02.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/team-member-02.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/team/team-member-03.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/team-member-03.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/team/team-member-04.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/team-member-04.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/team/team-member-05.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/team-member-05.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/homepage/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/team/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Base.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Base.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Footer.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Footer.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/team.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/team.astro" afterDir="false" />
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix(images): optimise images to use astro image service">
+      <change beforePath="$PROJECT_DIR$/src/lib/utils/manifest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils/manifest.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699997825009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix(images): optimise images to use astro image service">
+      <option name="closed" value="true" />
+      <created>1715375293675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715375293675</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +186,8 @@
     <MESSAGE value="feat(pwa): added pwa support" />
     <MESSAGE value="fix(contact): added contact form security" />
     <MESSAGE value="fix(contact): styling recaptcha" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(contact): styling recaptcha" />
+    <MESSAGE value="fix(images): optimise images to use astro image service" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(images): optimise images to use astro image service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

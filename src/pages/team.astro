@@ -38,7 +38,7 @@ members.sort(function (a, b) {
           members?.map((member) => (
             <div class="lg:col-4 md:col-6 text-center dark:bg-slate-800">
                 <div class="relative group mx-auto rounded-2xl drop-shadow-md hover:drop-shadow-xl overflow-hidden transition-all" style="height: 420px">
-                  <Image src={`/images/team/${member.image}`} width="380" height="420" alt={member.name} class="" />
+                  <Image src={member.image} width="380" height="420" alt={member.name} class="" />
                   <div class="bg-[#29C0C9]/30 p-3 text-amber-50 rounded-2xl overlay w-full inset-0 transition-all duration-200 delay-100 group-hover:-translate-y-full">
                     <div set:html={markdownify(member.description)} />
                   </div>+

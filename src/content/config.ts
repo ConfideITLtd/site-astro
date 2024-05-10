@@ -2,12 +2,12 @@ import { defineCollection, z } from "astro:content";
 
 // Homepage schema
 const homepage = defineCollection({
-  schema: z.object({
+  schema: ({ image }) => z.object({
     banner: z
       .object({
         title: z.string().optional(),
         content: z.string().optional(),
-        image: z.string().optional(),
+        image: image().optional(),
         button: z.object({
           label: z.string(),
           link: z.string().default("#"),
@@ -32,7 +32,7 @@ const homepage = defineCollection({
         z.object({
           title: z.string().optional(),
           content: z.string().optional(),
-          images: z.array(z.string()).optional(),
+          images: z.array(image()).optional(),
           button: z
             .object({
               label: z.string(),
@@ -47,14 +47,14 @@ const homepage = defineCollection({
       .object({
         title: z.string().optional(),
         description: z.string().optional(),
-        image: z.string(),
+        image: image(),
       })
       .optional(),
     call_to_action: z
       .object({
         title: z.string().optional(),
         content: z.string().optional(),
-        image: z.string(),
+        image: image(),
         button: z
           .object({
             label: z.string(),
@@ -69,18 +69,45 @@ const homepage = defineCollection({
 
 // Post collection schema
 const postsCollection = defineCollection({
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     meta_title: z.string().optional(),
     description: z.string().optional(),
     date: z.date().optional(),
-    image: z.string().optional(),
+    image: image().optional(),
     authors: z.array(z.string()).default(["admin"]),
     categories: z.array(z.string()).default(["others"]),
     tags: z.array(z.string()).default(["others"]),
     draft: z.boolean().optional(),
   }),
 });
+
+const teamCollection = defineCollection({
+  schema: ({ image }) => z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    draft: z.boolean().optional(),
+    members: z
+      .array(
+        z.object({
+          name: z.string(),
+          role: z.string(),
+          description: z.string(),
+          image: image().optional(),
+          social: z
+            .object({
+              facebook: z.string().optional(),
+              twitter: z.string().optional(),
+              linkedIn: z.string().optional(),
+              instagram: z.string().optional(),
+              email: z.string().optional(),
+            })
+            .optional(),
+        })
+      ),
+  })
+});
+
 
 // Pages collection schema
 const pagesCollection = defineCollection({
@@ -181,7 +208,8 @@ export interface PageData {
 export const collections = {
   blog: postsCollection,
   pages: pagesCollection,
-  // homepage: homepage,
+  team: teamCollection,
+  homepage,
   // contact: contact_page,
   // faq: faq_page,
   // pricing: pricing_page

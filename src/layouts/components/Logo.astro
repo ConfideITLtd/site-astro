@@ -17,9 +17,9 @@ const {
 } = config.site;
 ---
 
-<a href="/" class="navbar-brand block md:w-[150px] lg:w-auto">
+<a href="/" class="navbar-brand md:w-[150px] lg:w-auto text-center relative">
   {
-    src || logo ? (
+    src || logo && (
       <Image
         width={logo_width.replace("px", "") * 2}
         height={logo_height.replace("px", "") * 2}
@@ -29,11 +29,10 @@ const {
           height: logo_height.replace("px", "") + "px",
           width: logo_width.replace("px", "") + "px",
         }}
+        class="m-auto"
+        loading="eager"
       />
-    ) : logo_text ? (
-      logo_text
-    ) : (
-      title
     )
   }
+  <h4>{ logo_text ? (logo_text) : (title)}</h4>
 </a>

@@ -1,0 +1,10 @@
+---
+import type { ImageMetadata } from 'astro';
+
+export const getImagePath = async (slug: string) => {
+  const images = import.meta.glob<{ default: ImageMetadata }>('/src/content/members/*.{jpeg,jpg,png,gif,webp}');
+  const imagePath = Object.keys(images).find((key) => key.includes(slug));
+  if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/content/members/*.{jpeg,jpg,png,gif,webp}"`);
+  return images[imagePath]();
+};
+---

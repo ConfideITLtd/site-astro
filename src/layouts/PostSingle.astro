@@ -1,8 +1,11 @@
 ---
+import readingTime from "@lib/utils/readingTime";
+import Author from '@components/Author.astro';
 import { Image } from "astro:assets";
 import { markdownify } from "@lib/utils/textConverter";
+import Share from "@components/Share.astro";
 
-const { post } = Astro.props;
+const { post, authors } = Astro.props;
 const { Content } = await post.render();
 const { title, image } = post.data;
 ---
@@ -25,11 +28,21 @@ const { title, image } = post.data;
           }
           <h1 set:html={markdownify(title)} class="h2 my-6 text-left" />
 
+
+          {authors.map(p => (
+            <a href=`/team/${p.slug}`>
+              <Author slug={p.slug} name={p.data.name} />
+            </a>
+          ))}
+
           <div class="content mb-16 text-left">
+            <span>{readingTime(post.body)}</span>
             <Content />
             <!-- <Markdown content={post.body} components={shortcodes} /> -->
           </div>
         </article>
+        <p>Don't forget to share this post!</p>
+        <Share title={title} slug={Astro.url.pathname} />
       </div>
     </div>
   </div>

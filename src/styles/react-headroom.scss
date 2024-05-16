@@ -1,8 +1,19 @@
 .headroom {
   @apply fixed left-0 right-0 top-0 z-50 bg-white transition-all md:bg-opacity-100;
 
+  img, .nav-link {
+    @apply transition-all;
+  }
+
   &.headroom--unfixed {
     @apply md:bg-opacity-0;
+    img {
+      width: 168px !important;
+      height: 106px !important;
+    }
+    .nav-link {
+      @apply lg:text-xl;
+    }
   }
 
   &.headroom--scrolled.headroom--pinned {

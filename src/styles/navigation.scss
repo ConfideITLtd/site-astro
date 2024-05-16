@@ -25,6 +25,10 @@
 .navbar-brand {
   @apply text-xl font-semibold text-dark;
 
+  h4 {
+    @apply text-primary;
+  }
+
   img {
     @apply max-h-full max-w-full object-contain;
   }

@@ -4,10 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix(images): wrong manifest">
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="chore(index): stop lazy loading of above the fold image">
+      <change afterPath="$PROJECT_DIR$/src/content/members/ash-henry.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/members/elviani-huseyin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/members/ernest-man.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/members/mohammed-lala.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/Author.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/Member.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/imagePath.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/team/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/team/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/team/paddybasi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/team/team-member-01.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/ernest-man.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/team/team-member-02.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/elviani-huseyin.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/team/team-member-03.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/mohammed-lala.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/team/team-member-04.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/ash-henry.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/team/team-member-05.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Base.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Base.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PostSingle.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PostSingle.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/Logo.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/Logo.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/[single].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/[single].astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/team.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/team.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/react-headroom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/react-headroom.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="optimise-index-page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +52,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -39,47 +65,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Node.js.json Generator.executor&quot;: &quot;Debug&quot;,
-    &quot;Node.js.jsonGenerator.js.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;optimised-images-and-favicons&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.0.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.12.11&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/paddybasi/IdeaProjects/confide-site-astro/public/favicons&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/home/paddybasi/.nvm/versions/node/v22.0.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/paddybasi/IdeaProjects/confide-site-astro/node_modules/prettier&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/snap/intellij-idea-ultimate/493/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.json Generator.executor": "Debug",
+    "Node.js.jsonGenerator.js.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "22.0.0",
+    "javascript.nodejs.core.library.typings.version": "20.12.11",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/paddybasi/IdeaProjects/confide-site-astro/src/layouts/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/paddybasi/.nvm/versions/node/v22.0.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/paddybasi/IdeaProjects/confide-site-astro/node_modules/prettier",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/snap/intellij-idea-ultimate/493/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/layouts/components" />
+      <recent name="$PROJECT_DIR$/src/content/members" />
+      <recent name="$PROJECT_DIR$/src/content/team" />
       <recent name="$PROJECT_DIR$/public/favicons" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/src/content/homepage" />
-      <recent name="$PROJECT_DIR$/src/content/blog" />
-      <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/content/members" />
+      <recent name="$PROJECT_DIR$/src/layouts/components" />
       <recent name="$PROJECT_DIR$/src/content/team" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/src/content/homepage" />
-      <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -115,6 +142,9 @@
       <workItem from="1715282692680" duration="160000" />
       <workItem from="1715282865806" duration="642000" />
       <workItem from="1715283524475" duration="6247000" />
+      <workItem from="1715678689528" duration="754000" />
+      <workItem from="1715680086481" duration="30999000" />
+      <workItem from="1715870733007" duration="20372000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />
@@ -172,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715375778806</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chore(index): stop lazy loading of above the fold image">
+      <option name="closed" value="true" />
+      <created>1715377490555</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715377490555</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +236,8 @@
     <MESSAGE value="fix(contact): styling recaptcha" />
     <MESSAGE value="fix(images): optimise images to use astro image service" />
     <MESSAGE value="fix(images): wrong manifest" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(images): wrong manifest" />
+    <MESSAGE value="chore(index): stop lazy loading of above the fold image" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(index): stop lazy loading of above the fold image" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

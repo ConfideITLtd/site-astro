@@ -1,0 +1,19 @@
+---
+import { Image } from 'astro:assets';
+import { getImagePath } from '@lib/imagePath.astro';
+
+interface Props {
+  slug: string;
+  name: string;
+}
+
+const { slug, name  } = Astro.props;
+const imagePath = getImagePath(slug);
+---
+
+<div class="flex items-center gap-x-6">
+  <Image src={imagePath} height={64} width={64} alt={name} class="h-16 w-16 rounded-full" />
+  <div>
+    <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">{name}</h3>
+  </div>
+</div>

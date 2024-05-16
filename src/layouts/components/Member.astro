@@ -18,7 +18,7 @@ const imagePath = getImagePath(slug);
 ---
 
 <li class="card shadow-none transition-all grayscale hover:grayscale-0 hover:shadow-lg">
-  <a href=`team/${slug}`>
+  <a href=`${slug}`>
     <Image src={imagePath} alt={name} class="object-cover rounded-2xl w-full aspect-[3/2]" />
     <h3 class="text-dark tracking-tight leading-8 font-semibold	text-lg	mt-6">{name}</h3>
     <p class="text-gray-600	text-base	leading-7">{role}</p>

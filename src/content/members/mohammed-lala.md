@@ -1,5 +1,5 @@
 ---
-name: Pardeep Singh Basi
+name: Mohammed Lala
 role: Fullstack Developer
 social:
   facebook: https://facebook.com/paddybasi

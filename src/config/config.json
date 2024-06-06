@@ -4,7 +4,7 @@
     "base_url": "https://confide-it.com",
     "base_path": "/",
     "trailing_slash": false,
-    "logo": "/images/logo.svg",
+    "logo": "logo",
     "logo_width": "100",
     "logo_height": "68",
     "logo_text": "Confide IT"

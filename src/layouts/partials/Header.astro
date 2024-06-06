@@ -3,6 +3,7 @@ import Logo from "@components/Logo.astro";
 import { nav_button } from "@config/config.json";
 import menu from "@config/menu.json";
 import NavBar from "@components/NavBar";
+import { Icon } from 'astro-icon/components';
 
 const pathname = new URL(Astro.request.url).pathname;
 
@@ -36,9 +37,7 @@ const { main }: { main: NavigationLink[] } = menu;
             <li class="nav-item nav-dropdown group relative">
               <span class="nav-link inline-flex items-center">
                 {menu.name}
-                <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
-                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                </svg>
+                <Icon class="h-4 w-4 fill-current" name="chevron-down" />
               </span>
               <ul class="md:nav-dropdown-list hidden opacity-0 group-hover:visible group-hover:block group-hover:opacity-100 md:absolute">
                 {menu.children?.map((child) => (

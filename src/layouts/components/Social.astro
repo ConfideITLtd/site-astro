@@ -27,13 +27,14 @@ import {
   IoLogoSoundcloud,
   IoLogoTiktok,
   IoLogoTumblr,
-  IoLogoTwitter,
   IoLogoVimeo,
   IoLogoVk,
   IoLogoWhatsapp,
   IoLogoYoutube,
   IoMail,
 } from "react-icons/io5/index.js";
+
+import {FaXTwitter} from 'react-icons/fa6/index.js';
 
 const {
   facebook,
@@ -89,12 +90,12 @@ const {
     twitter && (
       <li class="inline-block">
         <a
-          aria-label="twitter"
+          aria-label="x"
           href={twitter}
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
-          <IoLogoTwitter />
+          <FaXTwitter />
         </a>
       </li>
     )

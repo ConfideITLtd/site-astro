@@ -13,22 +13,22 @@ feature:
   title: Something You Need To Know
   features:
     - name: "Clean Code"
-      icon: "/images/code.svg"
+      icon: "code"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "Object Oriented"
-      icon: "/images/oop.svg"
+      icon: "oop"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "24h Service"
-      icon: "/images/user-clock.svg"
+      icon: "user-clock"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "Value for Money"
-      icon: "/images/love.svg"
+      icon: "love"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "Faster Response"
-      icon: "/images/speedometer.svg"
+      icon: "speedometer"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
     - name: "Cloud Support"
-      icon: "/images/cloud.svg"
+      icon: "cloud"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
 
 # services

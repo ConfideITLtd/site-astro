@@ -135,14 +135,13 @@
   @apply prose-td:px-3 prose-td:py-4;
 }
 
-//swiper-pagination
-.pagination {
-  @apply space-x-2 text-center;
-  .swiper-pagination-bullet {
-    @apply inline-block h-2.5 w-2.5 cursor-pointer rounded-full border border-primary;
 
-    &-active {
-      @apply bg-primary;
-    }
-  }
+//swiper-pagination
+swiper-container::part(bullet) {
+  @apply inline-block h-2.5 w-2.5 cursor-pointer rounded-full border border-primary;
 }
+swiper-container::part(bullet-active) {
+  @apply inline-block h-2.5 w-2.5 cursor-pointer rounded-full border border-primary;
+  @apply bg-primary;
+}
+

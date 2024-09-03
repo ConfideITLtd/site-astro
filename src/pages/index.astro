@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { Icon } from 'astro-icon/components';
+import { Icon } from "astro-icon/components";
 import { getEntryBySlug } from "astro:content";
 import Base from "@layouts/Base.astro";
 import Cta from "@layouts/components/Cta.astro";
@@ -63,7 +63,8 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
                   class="mx-auto"
                   name={item.icon}
                   size={30}
-                  color="text-primary" />
+                  color="text-primary"
+                />
               )}
               <div class="mt-4">
                 <p class="h5" set:html={markdownify(item!.name)} />
@@ -88,14 +89,14 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
                 {service!.images!.length > 1 ? (
                   <swiper-container init="false" cssMode="true">
                     {service!.images?.map((image: string) => (
-                        <swiper-slide>
-                          <Image
-                            class="mx-auto"
-                            src={image}
-                            width={538}
-                            height={328}
-                            alt=""
-                          />
+                      <swiper-slide>
+                        <Image
+                          class="mx-auto"
+                          src={image}
+                          width={538}
+                          height={328}
+                          alt=""
+                        />
                       </swiper-slide>
                     ))}
                   </swiper-container>
@@ -140,11 +141,11 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
   }
 
   <script>
-    import { register } from 'swiper/element/bundle';
+    import { register } from "swiper/element/bundle";
     register();
 
     // swiper element
-    const swiperEl = document.querySelectorAll('swiper-container');
+    const swiperEl = document.querySelectorAll("swiper-container");
 
     // swiper parameters
     const swiperParams = {
@@ -163,8 +164,6 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       // and now initialize it
       el.initialize();
     });
-
-
   </script>
   <!-- ./End service -->
 

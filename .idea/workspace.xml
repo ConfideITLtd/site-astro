@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="feat: meet the team page redesign">
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix: updated blog images in meta tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/[single].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/[single].astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +133,7 @@
       <workItem from="1717706209948" duration="2736000" />
       <workItem from="1723226797475" duration="575000" />
       <workItem from="1723540880527" duration="618000" />
-      <workItem from="1725381129052" duration="1734000" />
+      <workItem from="1725381129052" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />
@@ -243,7 +243,8 @@
     <MESSAGE value="fix(images): wrong manifest" />
     <MESSAGE value="chore(index): stop lazy loading of above the fold image" />
     <MESSAGE value="feat: meet the team page redesign" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: meet the team page redesign" />
+    <MESSAGE value="fix: updated blog images in meta tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: updated blog images in meta tags" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

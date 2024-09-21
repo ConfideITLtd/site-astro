@@ -1,6 +1,6 @@
 ---
 name: Elviani Huseyin
-role: Fullstack Developer
+role: Senior Fullstack Developer
 social:
   facebook: https://facebook.com/elviani/
   twitter: https://x.com/elviani

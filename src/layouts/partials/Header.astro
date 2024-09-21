@@ -2,7 +2,6 @@
 import Logo from "@components/Logo.astro";
 import { nav_button } from "@config/config.json";
 import menu from "@config/menu.json";
-import NavBar from "@components/NavBar";
 import { Icon } from "astro-icon/components";
 
 const pathname = new URL(Astro.request.url).pathname;
@@ -22,64 +21,92 @@ export interface NavigationLink {
 const { main }: { main: NavigationLink[] } = menu;
 ---
 
-<NavBar client:only="react" color="#29C0C9">
-  <Logo slot="logo" />
 
-  <ul
-    id="nav-menu"
-    slot="navMenu"
-    class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto md:space-x-3 [.open_&]:block"
-  >
+<header class="header md:inactive">
+  <nav class="navbar container">
+    <div class="order-0"><Logo /></div>
+
+    <input id="nav-toggle" type="checkbox" class="hidden menu-btn" />
+
+    <label class="menu-icon order-2 flex cursor-pointer items-center md:order-1 md:hidden" for="nav-toggle">
+      <span class="navicon" aria-label="Hamburger menu 'icon'" />
+    </label>
+
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 w-full md:order-1 md:flex md:w-auto md:space-x-3"
+    >
+      {
+        main.map((menu) => (
+          <>
+            {menu.hasChildren ? (
+              <li class="nav-item nav-dropdown group relative">
+            <span class="nav-link inline-flex items-center">
+              {menu.name}
+              <Icon class="h-4 w-4 fill-current" name="chevron-down" />
+            </span>
+                <ul class="md:nav-dropdown-list opacity-0 max-h-0 group-hover:max-h-screen group-hover:visible group-hover:block group-hover:opacity-100 transition-all md:absolute">
+                  {menu.children?.map((child) => (
+                    <li class="nav-dropdown-item">
+                      <a
+                        href={child.url}
+                        class={`nav-dropdown-link block ${
+                          pathname === child.url && "nav-link-active"
+                        }`}
+                      >
+                        {child.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li class="nav-item">
+                <a
+                  href={menu.url}
+                  class={`nav-link block ${
+                    pathname === menu.url && "nav-link-active"
+                  }`}
+                >
+                  {menu.name}
+                </a>
+              </li>
+            )}
+          </>
+        ))
+      }
+    </ul>
     {
-      main.map((menu) => (
-        <>
-          {menu.hasChildren ? (
-            <li class="nav-item nav-dropdown group relative">
-              <span class="nav-link inline-flex items-center">
-                {menu.name}
-                <Icon class="h-4 w-4 fill-current" name="chevron-down" />
-              </span>
-              <ul class="md:nav-dropdown-list hidden opacity-0 group-hover:visible group-hover:block group-hover:opacity-100 md:absolute">
-                {menu.children?.map((child) => (
-                  <li class="nav-dropdown-item">
-                    <a
-                      href={child.url}
-                      class={`nav-dropdown-link block ${
-                        pathname === child.url && "nav-link-active"
-                      }`}
-                    >
-                      {child.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ) : (
-            <li class="nav-item">
-              <a
-                href={menu.url}
-                class={`nav-link block ${
-                  pathname === menu.url && "nav-link-active"
-                }`}
-              >
-                {menu.name}
-              </a>
-            </li>
-          )}
-        </>
-      ))
+      nav_button.enable && (
+        <div
+          class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 md:flex md:min-w-[150px] lg:min-w-[200px]"
+        >
+          <a class="btn btn-primary z-0 ml-auto py-[14px]" href={nav_button.link}>
+            {nav_button.label}
+          </a>
+        </div>
+      )
     }
-  </ul>
-  {
-    nav_button.enable && (
-      <div
-        slot="navButton"
-        class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 md:flex md:min-w-[150px] lg:min-w-[200px]"
-      >
-        <a class="btn btn-primary z-0 ml-auto py-[14px]" href={nav_button.link}>
-          {nav_button.label}
-        </a>
-      </div>
-    )
-  }
-</NavBar>
+  </nav>
+</header>
+
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const intercept = document.createElement("div");
+    const header = document.querySelector('header');
+
+    intercept.setAttribute("data-observer-intercept", "");
+    header.before(intercept);
+
+    const observer = new IntersectionObserver(([entry]) => {
+      header.classList.toggle("active", !entry.isIntersecting);
+      header.classList.toggle("md:inactive", entry.isIntersecting);
+    });
+
+    observer.observe(intercept);
+  });
+
+  document.addEventListener('astro:after-swap',
+    () => window.scrollTo({ left: 0, top: 0, behavior: 'instant' }))
+</script>

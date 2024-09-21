@@ -1,6 +1,6 @@
 ---
 name: Pardeep Singh Basi
-role: Fullstack Developer
+role: Senior Fullstack Javascript Developer
 social:
   facebook: https://facebook.com/paddybasi
   twitter: https://twitter.com/paddybasi

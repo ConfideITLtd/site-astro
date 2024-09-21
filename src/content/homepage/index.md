@@ -1,7 +1,7 @@
 ---
 banner:
   title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
+  content: "We are a team of experienced and skilled people with distributions. We are a privately owned Information and cyber security company."
   image: "./banner-art.png"
   button:
     label: "Contact Us"

@@ -143,3 +143,8 @@ swiper-container::part(bullet-active) {
   @apply inline-block h-2.5 w-2.5 cursor-pointer rounded-full border border-primary;
   @apply bg-primary;
 }
+
+.google-map {
+  @apply h-[400px] w-full p-2;
+  border: none;
+}

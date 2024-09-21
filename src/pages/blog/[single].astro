@@ -17,7 +17,6 @@ export async function getStaticPaths() {
   }));
   return paths;
 }
-
 const { post } = Astro.props;
 const { title, meta_title, description, image } = post.data;
 const authors = await getEntries(post.data.authors);

@@ -1,8 +1,8 @@
-import { defineCollection, reference, z } from 'astro:content';
+import { defineCollection, reference, z } from "astro:content";
 
 // Homepage schema
 const homepage = defineCollection({
-  type: 'content',
+  type: "content",
   schema: ({ image }) =>
     z.object({
       banner: z
@@ -12,7 +12,7 @@ const homepage = defineCollection({
           image: image().optional(),
           button: z.object({
             label: z.string(),
-            link: z.string().default('#'),
+            link: z.string().default("#"),
             enable: z.boolean().default(true),
           }),
         })
@@ -38,7 +38,7 @@ const homepage = defineCollection({
             button: z
               .object({
                 label: z.string(),
-                link: z.string().default('#'),
+                link: z.string().default("#"),
                 enable: z.boolean().default(true),
               })
               .optional(),
@@ -60,7 +60,7 @@ const homepage = defineCollection({
           button: z
             .object({
               label: z.string(),
-              link: z.string().default('#'),
+              link: z.string().default("#"),
               enable: z.boolean().default(true),
             })
             .optional(),
@@ -71,7 +71,7 @@ const homepage = defineCollection({
 
 // Post collection schema
 const postsCollection = defineCollection({
-  type: 'content',
+  type: "content",
   schema: ({ image }) =>
     z.object({
       title: z.string(),
@@ -79,44 +79,44 @@ const postsCollection = defineCollection({
       description: z.string().optional(),
       date: z.date().optional(),
       image: image().optional(),
-      authors: z.array(reference('members')).default(['pardeep-singh-basi']),
-      categories: z.array(z.string()).default(['others']),
-      tags: z.array(z.string()).default(['others']),
+      authors: z.array(reference("members")).default(["pardeep-singh-basi"]),
+      categories: z.array(z.string()).default(["others"]),
+      tags: z.array(z.string()).default(["others"]),
       draft: z.boolean().optional(),
     }),
 });
 
 const members = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
-      name: z.string(),
-      role: z.string(),
-      description: z.string(),
-      social: z
-        .object({
-          facebook: z.string().optional(),
-          twitter: z.string().optional(),
-          linkedIn: z.string().optional(),
-          instagram: z.string().optional(),
-          email: z.string().optional(),
-        })
-        .optional(),
-    })
+    name: z.string(),
+    role: z.string(),
+    description: z.string(),
+    social: z
+      .object({
+        facebook: z.string().optional(),
+        twitter: z.string().optional(),
+        linkedIn: z.string().optional(),
+        instagram: z.string().optional(),
+        email: z.string().optional(),
+      })
+      .optional(),
+  }),
 });
 
 const teamPage = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
     draft: z.boolean().optional(),
-    members: z.array(reference('members')),
+    members: z.array(reference("members")),
   }),
 });
 
 // Pages collection schema
 const pagesCollection = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     meta_title: z.string().optional(),
@@ -129,7 +129,7 @@ const pagesCollection = defineCollection({
 
 //Contact collection schema
 const contact_page = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string().optional(),
     description: z.string().optional(),
@@ -146,7 +146,7 @@ const contact_page = defineCollection({
 
 //faq page schema
 const faq_page = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string().optional(),
     description: z.string().optional(),

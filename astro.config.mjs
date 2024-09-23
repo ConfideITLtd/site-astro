@@ -21,36 +21,48 @@ export default defineConfig({
     sitemap(),
     tailwind({
       config: {
-        applyBaseStyles: false
-      }
+        applyBaseStyles: false,
+      },
     }),
     AutoImport({
-    imports: [
-      "@shortcodes/Button",
-      "@shortcodes/Accordion",
-      "@shortcodes/Notice",
-      "@shortcodes/Video",
-      "@shortcodes/Youtube",
-    ]
-  }), mdx(), icon(), AstroPWA({
-    registerType: "autoUpdate",
-    manifest,
-    workbox: {
-      globDirectory: "dist",
-      globPatterns: ["**/*.{js,css,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico}"],
-      // Don't fallback on document based (e.g. `/some-page`) requests
-      // This removes an errant console.log message from showing up.
-      navigateFallback: null
-    }
-  })],
+      imports: [
+        "@shortcodes/Button",
+        "@shortcodes/Accordion",
+        "@shortcodes/Notice",
+        "@shortcodes/Video",
+        "@shortcodes/Youtube",
+      ],
+    }),
+    mdx(),
+    icon(),
+    AstroPWA({
+      registerType: "autoUpdate",
+      manifest,
+      workbox: {
+        globDirectory: "dist",
+        globPatterns: [
+          "**/*.{js,css,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico}",
+        ],
+        // Don't fallback on document based (e.g. `/some-page`) requests
+        // This removes an errant console.log message from showing up.
+        navigateFallback: null,
+      },
+    }),
+  ],
   markdown: {
-    remarkPlugins: [remarkToc, [remarkCollapse, {
-      test: "Table of contents"
-    }]],
+    remarkPlugins: [
+      remarkToc,
+      [
+        remarkCollapse,
+        {
+          test: "Table of contents",
+        },
+      ],
+    ],
     shikiConfig: {
       theme: "one-dark-pro",
-      wrap: true
+      wrap: true,
     },
-    extendDefaultPlugins: true
-  }
+    extendDefaultPlugins: true,
+  },
 });

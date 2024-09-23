@@ -1,7 +1,8 @@
 .headroom {
   @apply fixed left-0 right-0 top-0 z-50 bg-white transition-all md:bg-opacity-100;
 
-  .logo, .nav-link {
+  .logo,
+  .nav-link {
     @apply transition-all;
   }
 

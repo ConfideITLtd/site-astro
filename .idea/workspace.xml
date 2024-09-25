@@ -4,8 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="feat: meet the team page redesign">
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix: updated blog images in meta tags">
+      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/members/ash-henry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/members/ernest-man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/members/mohammed-lala.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/social.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/social.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/contact/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/contact/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/homepage/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/ash-henry.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/ash-henry.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/ash-henry.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/elviani-huseyin.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/elviani-huseyin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/elviani-huseyin.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/ernest-man.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/ernest-man.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/ernest-man.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/mohammed-lala.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/mohammed-lala.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/mohammed-lala.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/pages/404.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/404.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/PostSingle.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PostSingle.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/NavBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Header.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Post.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Post.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/[single].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/[single].astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +50,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat-team-page-and-blog-updates" />
+        <entry key="$PROJECT_DIR$" value="updated-nav-and-teams-page" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,48 +75,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.json Generator.executor": "Debug",
-    "Node.js.jsonGenerator.js.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "22.0.0",
-    "javascript.nodejs.core.library.typings.version": "22.0.3",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/paddybasi/IdeaProjects/basi-software-astro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/home/paddybasi/.nvm/versions/node/v22.0.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/home/paddybasi/IdeaProjects/confide-site-astro/node_modules/prettier",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/snap/intellij-idea-ultimate/530/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.json Generator.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.jsonGenerator.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;member-update&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.12.14&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/paddybasi/IdeaProjects/confide-site-astro/src/content/members&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/paddybasi/.nvm/versions/node/v20.8.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu\\home\\paddybasi\\IdeaProjects\\confide-site-astro\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\members" />
       <recent name="$PROJECT_DIR$/src/icons" />
       <recent name="$PROJECT_DIR$/src/layouts/components" />
       <recent name="$PROJECT_DIR$/src/content/members" />
       <recent name="$PROJECT_DIR$/src/content/team" />
-      <recent name="$PROJECT_DIR$/public/favicons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\members" />
       <recent name="$PROJECT_DIR$/src/content/members" />
       <recent name="$PROJECT_DIR$/src/layouts/components" />
       <recent name="$PROJECT_DIR$/src/content/team" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/src/content/homepage" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,7 +165,18 @@
       <workItem from="1717449285236" duration="41000" />
       <workItem from="1717449341513" duration="123000" />
       <workItem from="1717706209948" duration="2736000" />
-      <workItem from="1727286266280" duration="642000" />
+      <workItem from="1723226797475" duration="575000" />
+      <workItem from="1723540880527" duration="618000" />
+      <workItem from="1725381129052" duration="23070000" />
+      <workItem from="1725564715434" duration="3275000" />
+      <workItem from="1725877650636" duration="697000" />
+      <workItem from="1726141259750" duration="1651000" />
+      <workItem from="1726143928140" duration="3509000" />
+      <workItem from="1726478834696" duration="362000" />
+      <workItem from="1726479302105" duration="23923000" />
+      <workItem from="1726940134180" duration="56000" />
+      <workItem from="1726940274646" duration="3176000" />
+      <workItem from="1726933860988" duration="1026000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />
@@ -234,7 +286,12 @@
     <MESSAGE value="fix(images): wrong manifest" />
     <MESSAGE value="chore(index): stop lazy loading of above the fold image" />
     <MESSAGE value="feat: meet the team page redesign" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: meet the team page redesign" />
+    <MESSAGE value="fix: updated blog images in meta tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: updated blog images in meta tags" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -23,13 +23,23 @@ If you have any questions or would like to get in touch, feel free to reach out 
 #### Work History & Feedback
 I have worked on a variety of projects and with a wide range of clients, and I have received positive feedback for my work. Here are some of the clients I have worked with:
 
-<ul className="flex flex-wrap items-center justify-center text-gray-900 dark:text-white no-bullet">
-  <li><Image src={hmcts} alt="His Majesty's Courts and Tribunals Service." width="150" height="100" /></li>
-  <li><Image src={hmpo} alt="His Majesty's Passport Office." width="150" height="100" /></li>
-  <li><Image src={dft} alt="His Majesty's Passport Office." width="150" height="100" /></li>
-  <li><Image src={moj} alt="His Majesty's Passport Office." width="150" height="100" /></li>
-</ul>
+<div className="flex flex-wrap justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
+   {(function () {
 
+     const logos = [
+       { src: hmcts, alt: "His Majesty's Courts and Tribunals Service." },
+       { src: hmpo, alt: "His Majesty's Passport Office." },
+       { src: dft, alt: "Department For Transport." },
+       { src: moj, alt: "Ministry Of Justice." },
+     ];
+
+    return logos.map(({ src, alt }) => (
+      <div className="flex justify-center col-span-1 my-2 lg:my-4 py-1 px-3 rounded-md dark:bg-gray-200">
+        <Image src={src} alt={alt} width="200" height="100" />
+      </div>
+    ))
+  })()}
+</div>
 
 #### Profile Analytics & Activities
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.

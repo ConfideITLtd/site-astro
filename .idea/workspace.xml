@@ -4,43 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix: updated blog images in meta tags">
-      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/members/ash-henry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/members/ernest-man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/members/mohammed-lala.png" afterDir="false" />
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix: bug with mobile navigation and clicking links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/social.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/social.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/blog-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/blog-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/blog/node-20-lts.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/contact/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/contact/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/homepage/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/homepage/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/ash-henry.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/ash-henry.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/ash-henry.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/elviani-huseyin.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/elviani-huseyin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/elviani-huseyin.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/ernest-man.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/ernest-man.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/ernest-man.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/mohammed-lala.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/mohammed-lala.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/mohammed-lala.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/pages/404.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/pages/404.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/PostSingle.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/PostSingle.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/NavBar.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/partials/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Header.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/partials/Post.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Post.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/[single].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/[single].astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +254,8 @@
     <MESSAGE value="chore(index): stop lazy loading of above the fold image" />
     <MESSAGE value="feat: meet the team page redesign" />
     <MESSAGE value="fix: updated blog images in meta tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: updated blog images in meta tags" />
+    <MESSAGE value="fix: bug with mobile navigation and clicking links" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: bug with mobile navigation and clicking links" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

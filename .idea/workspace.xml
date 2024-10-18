@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix: bug with mobile navigation and clicking links">
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="feat: new team member page and other fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/Member.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/Member.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715902887872</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: new team member page and other fixes">
+      <option name="closed" value="true" />
+      <created>1729283789812</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729283789812</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +262,8 @@
     <MESSAGE value="feat: meet the team page redesign" />
     <MESSAGE value="fix: updated blog images in meta tags" />
     <MESSAGE value="fix: bug with mobile navigation and clicking links" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: bug with mobile navigation and clicking links" />
+    <MESSAGE value="feat: new team member page and other fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new team member page and other fixes" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

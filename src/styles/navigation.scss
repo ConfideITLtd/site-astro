@@ -110,16 +110,6 @@
     @apply transition-all;
   }
 
-  &.inactive {
-    .logo {
-      width: 168px !important;
-      height: 106px !important;
-    }
-    .nav-link {
-      @apply lg:text-xl;
-    }
-  }
-
   &.active {
     @apply drop-shadow-2xl;
   }

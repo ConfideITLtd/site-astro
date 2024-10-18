@@ -101,7 +101,6 @@ const { main }: { main: NavigationLink[] } = menu;
 
     const observer = new IntersectionObserver(([entry]) => {
       header.classList.toggle("active", !entry.isIntersecting);
-      header.classList.toggle("md:inactive", entry.isIntersecting);
     });
 
     observer.observe(intercept);

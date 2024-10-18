@@ -41,13 +41,14 @@ const { main }: { main: NavigationLink[] } = menu;
           <>
             {menu.hasChildren ? (
               <li class="nav-item nav-dropdown group relative">
-            <span class="nav-link inline-flex items-center">
+                <input type="radio" id=`nav-group-${menu.name}` class="hidden" name="nav-group-1" />
+            <label class="nav-link inline-flex items-center" for=`nav-group-${menu.name}`>
               {menu.name}
               <Icon class="h-4 w-4 fill-current" name="chevron-down" />
-            </span>
-                <ul class="md:nav-dropdown-list opacity-0 max-h-0 group-hover:max-h-screen group-hover:visible group-hover:block group-hover:opacity-100 transition-all md:absolute">
+            </label>
+                <ul class="md:nav-dropdown-list opacity-0 max-h-0 md:group-hover:max-h-screen md:group-hover:visible md:group-hover:block md:group-hover:opacity-100 transition-all delay-100 md:absolute">
                   {menu.children?.map((child) => (
-                    <li class="nav-dropdown-item">
+                    <li class="nav-dropdown-item hidden md:group-hover:block">
                       <a
                         href={child.url}
                         class={`nav-dropdown-link block ${

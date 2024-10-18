@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="feat: new team member page and other fixes">
-      <change afterPath="$PROJECT_DIR$/src/content/assets/logos/DFT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/assets/logos/HMCTS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/assets/logos/HMPO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/assets/logos/MOJ.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/shortcodes/Skills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/team/[member].astro" afterDir="false" />
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix: bug with mobile navigation and clicking links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/members/pardeep-singh-basi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Base.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Base.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/Member.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/Member.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/partials/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/partials/Header.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/team.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/team/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/navigation.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,37 +42,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.json Generator.executor": "Debug",
-    "Node.js.jsonGenerator.js.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "member-update",
-    "go.import.settings.migrated": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.nodejs.core.library.configured.version": "22.9.0",
-    "javascript.nodejs.core.library.typings.version": "22.7.4",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/paddybasi/IdeaProjects/confide-site-astro/src/content/members",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/home/paddybasi/.nvm/versions/node/v22.9.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/home/paddybasi/IdeaProjects/confide-site-astro/node_modules/prettier",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/snap/intellij-idea-ultimate/532/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.json Generator.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.jsonGenerator.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;member-update&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.12.14&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/paddybasi/IdeaProjects/confide-site-astro/src/content/members&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/home/paddybasi/.nvm/versions/node/v20.8.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu\\home\\paddybasi\\IdeaProjects\\confide-site-astro\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\members" />
@@ -97,11 +82,11 @@
       <recent name="$PROJECT_DIR$/src/content/team" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/content/assets/logos" />
-      <recent name="$PROJECT_DIR$/src/pages/team" />
       <recent name="\\wsl$\Ubuntu\home\paddybasi\IdeaProjects\confide-site-astro\src\content\members" />
       <recent name="$PROJECT_DIR$/src/content/members" />
       <recent name="$PROJECT_DIR$/src/layouts/components" />
+      <recent name="$PROJECT_DIR$/src/content/team" />
+      <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,8 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -159,11 +144,6 @@
       <workItem from="1726940134180" duration="56000" />
       <workItem from="1726940274646" duration="3176000" />
       <workItem from="1726933860988" duration="1026000" />
-      <workItem from="1727457983136" duration="7822000" />
-      <workItem from="1728056622756" duration="2250000" />
-      <workItem from="1728323635809" duration="68000" />
-      <workItem from="1728323720592" duration="13037000" />
-      <workItem from="1728678257682" duration="33919000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />
@@ -274,8 +254,8 @@
     <MESSAGE value="chore(index): stop lazy loading of above the fold image" />
     <MESSAGE value="feat: meet the team page redesign" />
     <MESSAGE value="fix: updated blog images in meta tags" />
-    <MESSAGE value="feat: new team member page and other fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new team member page and other fixes" />
+    <MESSAGE value="fix: bug with mobile navigation and clicking links" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: bug with mobile navigation and clicking links" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

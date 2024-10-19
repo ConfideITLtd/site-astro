@@ -1,6 +1,6 @@
 ---
 import config from "@config/config.json";
-import { Icon } from 'astro-icon/components';
+import { Icon } from "astro-icon/components";
 const { src } = Astro.props;
 const {
   logo,
@@ -17,21 +17,22 @@ const {
 } = config.site;
 ---
 
-<a href="/" class="navbar-brand md:w-[150px] lg:w-auto text-center relative">
+<a href="/" class="navbar-brand relative text-center md:w-[150px] lg:w-auto">
   {
-    src || logo && (
-      <Icon
-        width={logo_width.replace("px", "") * 2}
-        height={logo_height.replace("px", "") * 2}
-        name={src ? src : logo}
-        alt={title}
-        style={{
-          height: logo_height.replace("px", "") + "px",
-          width: logo_width.replace("px", "") + "px",
-        }}
-        class="m-auto logo"
-      />
-    )
+    src ||
+      (logo && (
+        <Icon
+          width={logo_width.replace("px", "") * 2}
+          height={logo_height.replace("px", "") * 2}
+          name={src ? src : logo}
+          alt={title}
+          style={{
+            height: logo_height.replace("px", "") + "px",
+            width: logo_width.replace("px", "") + "px",
+          }}
+          class="logo m-auto"
+        />
+      ))
   }
-  <h4>{ logo_text ? (logo_text) : (title)}</h4>
+  <h4>{logo_text ? logo_text : title}</h4>
 </a>

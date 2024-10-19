@@ -1,0 +1,43 @@
+---
+import Base from "@layouts/Base.astro";
+
+import TeamMember from "@components/Member.astro";
+import { markdownify } from "@lib/utils/textConverter";
+import { getEntries, getEntryBySlug } from "astro:content";
+const entry = await getEntryBySlug("team", "index");
+const { title, description, members } = entry.data;
+const teamMembers = await getEntries(members);
+
+teamMembers.sort(function (a, b) {
+  const aLastName = a.data.name.split(" ").pop();
+  const bLastName = b.data.name.split(" ").pop();
+  return aLastName.localeCompare(bLastName);
+});
+---
+
+<Base title={title} description={description}>
+  <section class="section !pb-0">
+    <div class="container">
+      <div class="max-w-2xl">
+        <h2
+          class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          set:html={markdownify(title)}
+        />
+        <p
+          class="mt-6 text-lg leading-8 text-gray-600"
+          set:html={markdownify(description)}
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-theme-body dark:bg-darkmode-body">
+    <div class="container">
+      <ul
+        class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+      >
+        {teamMembers?.map((member) => <TeamMember {...member} />)}
+      </ul>
+    </div>
+  </section>
+</Base>

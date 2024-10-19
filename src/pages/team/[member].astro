@@ -1,0 +1,71 @@
+---
+import Base from "@layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+import { Image } from "astro:assets";
+import { getImagePath } from "@lib/imagePath.astro";
+import { markdownify } from "@lib/utils/textConverter";
+import Social from "../../layouts/components/Social.astro";
+
+export async function getStaticPaths() {
+  const members = await getCollection("members");
+
+  return members.map((member) => ({
+    params: {
+      member: member.slug
+    },
+    props: { member }
+  }));
+}
+
+const { member } = Astro.props;
+
+const imagePath = getImagePath(member.slug);
+const { Content } = await member.render();
+
+const { name, role, description, social } = member.data;
+---
+
+<Base
+  title={name}
+  meta_title={name}
+  description={description}
+>
+  <section class="section">
+    <div class="container">
+
+
+      <div class="row">
+        <div class="col-6 mx-auto lg:col-4">
+          {
+            imagePath && (
+              <Image
+                src={imagePath}
+                height={500}
+                width={500}
+                alt={name}
+                class="mx-auto mb-10 w-full sticky top-32"
+                transition:name=`member ${member.id} image`
+              />
+            )
+          }
+        </div>
+        <div class="lg:col-8"><span class="section-title-border"></span>
+          <h1 class="mb-4" transition:name=`member ${member.id} name`>{name}</h1>
+          <p>{role}</p>
+
+          <Social className="social-icons gap-x-1 flex mt-6" source={social} />
+
+          <div class="content mb-10">
+
+            <blockquote class="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+              <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">{member.data.description}</p>
+            </blockquote>
+
+            <Content />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

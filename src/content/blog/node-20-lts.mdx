@@ -5,8 +5,7 @@ image: "./blog-4.jpg"
 date: 2023-11-14T18:00:00Z
 draft: false
 author: pardeep-singh-basi
-tags: ["nodejs", "javascript", "lts"]
-
+tags: ["Node.js", "javascript", "lts"]
 ---
 
 Node.js 20 is a major release of the JavaScript runtime environment, with a number of new features and improvements. It is also the first LTS (long-term support) release of Node.js 20, which means it will be supported for at least three years.
@@ -34,6 +33,19 @@ Once you have upgraded to Node.js 20, you can start using the new features. For 
 To use the native support for TypeScript, you can simply compile your TypeScript code to JavaScript using the `tsc` command.
 
 To use the new APIs for working with files and streams, you can simply import the `fs.promises` API or the `Stream.Readable.from()` and `Stream.Writable.to()` methods into your code.
+
+```javascript
+import fs from "fs/promises";
+
+async function readFile(filePath) {
+  try {
+    const data = await fs.readFile(filePath, "utf8");
+    console.log(data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+```
 
 **Conclusion**
 

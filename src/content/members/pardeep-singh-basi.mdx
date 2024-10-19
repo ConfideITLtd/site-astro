@@ -1,0 +1,60 @@
+---
+name: Pardeep Singh Basi
+role: Senior Fullstack Javascript Developer
+social:
+  facebook: https://facebook.com/paddybasi
+  twitter: https://twitter.com/paddybasi
+  linkedIn: https://www.linkedin.com/in/paddybasi/
+  email: pardeep.basi@confide-it.com
+description: A fullstack javascript developer with over 20+ years of experience within the field.
+---
+import { Image } from 'astro:assets';
+import hmcts from '../assets/logos/HMCTS.png';
+import hmpo from '../assets/logos/HMPO.png';
+import dft from '../assets/logos/DFT.png';
+import moj from '../assets/logos/MOJ.svg';
+
+Hi there, I'm Pardeep Singh Basi, a Senior Fullstack Javascript Developer with over 20+ years of experience within the field. I have worked on a variety of projects, from small to large, and have a passion for creating clean, efficient code.
+
+I have a strong background in both front-end and back-end development, and I am proficient in a wide range of technologies, including JavaScript, Node.js, React, Angular, and more. I am always looking to learn new things and improve my skills, and I am excited to be a part of the Confide IT team.
+
+If you have any questions or would like to get in touch, feel free to reach out to me via email at [pardeep.basi@confide-it.com](mailto:pardeep.basi@confide-it.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/paddybasi/).
+
+#### Work History & Feedback
+I have worked on a variety of projects and with a wide range of clients, and I have received positive feedback for my work. Here are some of the clients I have worked with:
+
+<div className="flex flex-wrap justify-center gap-x-6 sm:gap-x-12 lg:gap-x-24">
+   {(function () {
+
+     const logos = [
+       { src: hmcts, alt: "His Majesty's Courts and Tribunals Service." },
+       { src: hmpo, alt: "His Majesty's Passport Office." },
+       { src: dft, alt: "Department For Transport." },
+       { src: moj, alt: "Ministry Of Justice." },
+     ];
+
+    return logos.map(({ src, alt }) => (
+      <div className="flex justify-center col-span-1 my-2 lg:my-4 py-1 px-3 rounded-md dark:bg-gray-200">
+        <Image src={src} alt={alt} width="200" height="100" />
+      </div>
+    ))
+  })()}
+</div>
+
+#### Profile Analytics & Activities
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+#### Activities
+
+- Enim ad minim veniam, quis nostrud
+- Sed do eiusmod tempor consectetur incididunt ut
+- Excepteur sint occaecat cupidatat non proident sunt in culpa
+
+#### Skills
+
+<Skills client:visible hue="183" saturation="66" skills={[
+  { type: 'node', level: 95 },
+  { type: 'react', level: 90 },
+  { type: 'angular', level: 75 },
+  { type: 'svelte', level: 85 },
+]} />

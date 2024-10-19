@@ -16,14 +16,16 @@ const { blog_folder, summary_length } = config.settings;
         alt={post.data.title}
         width={index === 0 ? 925 : 445}
         height={index === 0 ? 475 : 230}
+        transition:name=`blog ${post.id} image`
       />
     )
   }
-  <h2 class="h3 mb-2 mt-4">
+  <h2 class="h3 mb-2 mt-4" transition:name=`blog ${post.id} title`>
     <a href={`/${blog_folder}/${post.slug}`} class="block hover:text-primary">
       {post.data.title}
     </a>
   </h2>
+  <small transition:name=`blog ${post.id} description`>{post.data.description}</small>
   <p set:html={plainify(post.body.slice(0, summary_length))} />
   <a class="btn btn-primary mt-4" href={`/${blog_folder}/${post.slug}`} rel="">
     Read More

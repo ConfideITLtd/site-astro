@@ -8,11 +8,17 @@ import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import icon from "astro-icon";
+import { imageService } from "@unpic/astro/service";
 import config from "./src/config/config.json";
 import { manifest } from "./src/lib/utils/manifest";
 
 // https://astro.build/config
 export default defineConfig({
+  image: {
+    service: imageService({
+      placeholder: "blurhash",
+    }),
+  },
   site: config.site.base_url ? config.site.base_url : "https://confide-it.com",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",

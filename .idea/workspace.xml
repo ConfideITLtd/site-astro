@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="feat: new team member page and other fixes">
+    <list default="true" id="094d2e51-c616-4cd9-a2cf-cf0bf0d8783f" name="Changes" comment="fix: bug with mobile navigation and clicking links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/Member.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/Member.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +17,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="updated-nav-and-teams-page" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="j66pabr5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Node.js.json Generator.executor": "Debug",
     "Node.js.jsonGenerator.js.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -50,25 +55,26 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "member-update",
+    "git-widget-placeholder": "unpic-blurhash",
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "20.12.1",
     "javascript.nodejs.core.library.typings.version": "20.12.14",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/paddybasi/IdeaProjects/confide-site-astro/src/content/members",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/paddybasi/IdeaProjects/rustHelloWorld",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "wsl://Ubuntu@/home/paddybasi/.nvm/versions/node/v20.8.0/bin/node",
     "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu\\home\\paddybasi\\IdeaProjects\\confide-site-astro\\node_modules\\prettier",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/snap/intellij-idea-ultimate/532/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,8 +102,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -143,6 +149,18 @@
       <workItem from="1726940134180" duration="56000" />
       <workItem from="1726940274646" duration="3176000" />
       <workItem from="1726933860988" duration="1026000" />
+      <workItem from="1729267308043" duration="807000" />
+      <workItem from="1729517557480" duration="4585000" />
+      <workItem from="1729604351504" duration="6908000" />
+      <workItem from="1729691784221" duration="34000" />
+      <workItem from="1729768340449" duration="126000" />
+      <workItem from="1729768480389" duration="609000" />
+      <workItem from="1729802901484" duration="7350000" />
+      <workItem from="1730133944207" duration="295000" />
+      <workItem from="1730134261907" duration="255000" />
+      <workItem from="1730134536269" duration="489000" />
+      <workItem from="1730135047098" duration="841000" />
+      <workItem from="1730737768147" duration="4354000" />
     </task>
     <task id="LOCAL-00001" summary="fix(core): prettify all files">
       <option name="closed" value="true" />
@@ -224,15 +242,7 @@
       <option name="project" value="LOCAL" />
       <updated>1715902887872</updated>
     </task>
-    <task id="LOCAL-00011" summary="feat: new team member page and other fixes">
-      <option name="closed" value="true" />
-      <created>1729283789812</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1729283789812</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,8 +272,7 @@
     <MESSAGE value="feat: meet the team page redesign" />
     <MESSAGE value="fix: updated blog images in meta tags" />
     <MESSAGE value="fix: bug with mobile navigation and clicking links" />
-    <MESSAGE value="feat: new team member page and other fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new team member page and other fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: bug with mobile navigation and clicking links" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
